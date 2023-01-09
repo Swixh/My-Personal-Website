@@ -18,11 +18,11 @@ ul {
   top: 0;
   width: 100%;
 }
-
+/* #636f60 */
 nav {
-  background-color: #636f60;
+  background-color: #457b9d;
   width: 330px;
-  height: 55px;
+  height: 100vh;
   border-radius: 5px;
   position: fixed;
 }
@@ -48,7 +48,17 @@ li a:hover {
 }
 
 main#content {
-  width: 320px;
+  width: 325px;
   height: 100vh;
   background-color: grey;
+  position: fixed;
+  top: 55px;
+  background-color: #f1faee;
+}
+
+main#content table thead {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 20px;
 }
